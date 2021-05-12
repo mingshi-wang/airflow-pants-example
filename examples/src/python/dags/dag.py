@@ -4,12 +4,12 @@ from airflow import DAG
 from libs.my_bash_operator import MyBashOperator
 
 dag = DAG(
-    dag_id='my_awesome_dag',
+    dag_id='my_dag',
     default_args={
-        'owner': 'airflow',
+        'owner': 'pipeline',
         'depends_on_past': False,
         'start_date': datetime(2019, 6, 1),
-        'email': ['airflow@example.com'],
+        'email': ['pipeline@example.com'],
         'email_on_failure': False,
         'email_on_retry': False,
         'retries': 1,
