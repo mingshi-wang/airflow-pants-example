@@ -1,0 +1,5 @@
+# Copyright 2020 Pants project contributors.
+# Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+apache-airflow==1.10.10
+prometheus_client==0.7.1
