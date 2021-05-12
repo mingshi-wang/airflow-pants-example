@@ -1,10 +1,7 @@
 from datetime import datetime, timedelta
-
 from airflow import DAG
-from airflow.operators.bash_operator import BashOperator
+from dags.task import MyBashOperator
 
-class MyBashOperator(BashOperator):
-    pass
 
 dag = DAG(
     dag_id='my_dag',

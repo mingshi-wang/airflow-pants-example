@@ -1,4 +1,3 @@
-import os
 from airflow.bin.cli import CLIFactory
 
 if __name__ == '__main__':
