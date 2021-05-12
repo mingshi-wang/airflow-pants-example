@@ -20,5 +20,6 @@ python_requirements(
   module_mapping={
     "ansicolors": ["colors"],
     "setuptools": ["pkg_resources"],
+    "apache-airflow": ["airflow"],
   },
 )
