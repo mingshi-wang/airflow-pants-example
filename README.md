@@ -1,7 +1,7 @@
 # airflow-pants-example
 1. Build a pex file for the airflow dag:
 ```
-./pants package uniswap/src/python/airflow_pipeline/airflow.py
+./pants package examples/src/python/pipeline/main.py
 ```
 2. Run these commands to list tasks and run the dag:
 ```
